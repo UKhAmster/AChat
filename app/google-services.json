@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "947725450632",
+    "project_id": "chatpg-d16ea",
+    "storage_bucket": "chatpg-d16ea.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947725450632:android:7928be28ca1658ea4d0e3d",
+        "android_client_info": {
+          "package_name": "com.example.chatpg"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBX-Np4a3-x3H_7sJ9tdYJMwULxZV8xVas"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
