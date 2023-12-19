@@ -20,6 +20,7 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.FirebaseDatabase;
 
 import android.text.format.DateFormat;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -32,11 +33,11 @@ public class MainActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
         if(requestCode == Sign_IN_CODE){
             if(resultCode == RESULT_OK){
-                Snackbar.make(activity_main,"Вы авторизованы", Snackbar.LENGTH_LONG).show();
+                Toast.makeText(this,"Вы авторизованы", Toast.LENGTH_LONG).show();
                 displayAllMessages();
             }
             else {
-                Snackbar.make(activity_main,"Вы не авторизованы", Snackbar.LENGTH_LONG).show();
+                Toast.makeText(this,"Вы не авторизованы", Toast.LENGTH_LONG).show();
                 finish();
             }
         }
